@@ -6,6 +6,6 @@ for s1 in "ЗАПИСЬ":
                 for s5 in "ЗАПИСЬ":
                     for s6 in "ЗАПИСЬ":
                         s= s1 + s2 + s3 + s4 + s5 + s6
-                        if s1 != 'Ь' in s:
+                        if (s1 != 'Ь') and (len(set(s))==6) and ("АЬ" not in s) and ("ИЬ" not in s):
                             k+=1
 print(k)
