@@ -10,5 +10,5 @@ def f(x):
 
 for i in range(1,100000000):
     a,b = f(i)
-    if a == 3 and b == 24:
+    if a == 2 and b == 5:
         print(i)
