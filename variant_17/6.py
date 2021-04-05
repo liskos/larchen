@@ -6,6 +6,6 @@ def f(d):
         n = n - 10
     return n
 
-for i in range(1, 10000000):
+for i in range(1000, 1, -1):
     if f(i)==50:
         print(i)

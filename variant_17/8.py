@@ -1,10 +1,10 @@
 k = 0
-for s1 in "АВДПРА":
-    for s2 in "АВДПРА":
-        for s3 in "АВДПРА":
-            for s4 in "АВДПРА":
+for s1 in "АВДПР":
+    for s2 in "АВДПР":
+        for s3 in "АВДПР":
+            for s4 in "АВДПР":
                 s= s1 + s2 + s3 + s4
-                if "А" in s :
-                    k+=1
-                    break
+                k += 1
+                if ("А" not in s) and (len(set(s))==4):
+                    print(k, s)
 print(k)
