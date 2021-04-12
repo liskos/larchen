@@ -4,6 +4,7 @@ def f(x):
     while x > 0:
         a += 1
         b += x % 10
+        x = x //10
     return a,b
 
 
