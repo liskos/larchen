@@ -1,10 +1,11 @@
 def f(s):
     n = 80
-    while s + n < 160:
-        s = s + 15
-        n = n - 10
-    return n
+    while s + n <160:
+        s=s+15
+        n=n-10
+    return s
+
 
 for i in range(1,100000):
-    if n<100:
+    if f(i)<=100:
         print(i)
