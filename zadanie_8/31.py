@@ -1,5 +1,5 @@
 k=0
-for s1 in "ЕО":
+for s1 in "MTP":
     for s2 in "МЕТРО":
         for s3 in "МЕТРО":
             for s4 in "ЕО":
